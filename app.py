@@ -5,6 +5,7 @@ import pandas as pd
 from dash import Dash, dcc, html, dash_table, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.express as px
+import openpyxl
 
 df = pd.read_excel("edadmedia.xlsx")
 
