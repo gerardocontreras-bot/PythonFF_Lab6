@@ -6,6 +6,9 @@ from dash import Dash, dcc, html, dash_table, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.express as px
 
+df = pd.read_excel("edadmedia.xlsx")
+
+
 df_long = df.melt(
     id_vars="Year",
     var_name="Departamento",
